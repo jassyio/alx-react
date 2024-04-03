@@ -14,7 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
+    "deploy": "main -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -37,6 +37,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "main": "^6.1.1"
   }
 }
